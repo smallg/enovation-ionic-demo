@@ -1,0 +1,20 @@
+<ion-view title="Dashboard">
+    <ion-header-bar class="bar-dark">
+        <h1 class="title">Story</h1>
+        <!-- New Task button-->
+        <button class="button button-icon" ng-click="newTask()">
+            <i class="icon ion-compose"></i>
+        </button>
+    </ion-header-bar>
+    <div class="bar bar-subheader">
+        <h2 class="title">Sub Header</h2>
+    </div>
+    <ion-content>
+           <!-- our list and list items -->
+        <ion-list>
+            <ion-item ng-repeat="task in tasks">
+                {{task.title}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

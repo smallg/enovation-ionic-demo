@@ -1,0 +1,18 @@
+<ion-view>
+    <div class="bar bar-header bar-dark">
+        <h1 class="title">{{project.name}}</h1>
+        <button class="button button-icon" ng-click="modifyProject()">
+            <i class="icon ion-ios7-compose-outline"></i>
+        </button>
+    </div>
+  <ion-content has-header="true" padding="true">
+      <div class="list card">
+          <div class="item item-avatar">
+              <p>{{project.createTime}}</p>
+              <p>{{project.modifyTime}}</p>
+              <p>{{project.owner}}</p>
+              <p>{{project.description}}</p>
+          </div>
+      </div>
+  </ion-content>
+</ion-view>
