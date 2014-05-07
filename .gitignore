@@ -1,2 +1,5 @@
 platforms/^.*
 plugins/^.*
+
+/merges
+/.idea

@@ -7,7 +7,7 @@ var TaskCtrl = ['$scope','$ionicModal', function ($scope,$ionicModal) {
     ];
 
     // Create and load the Modal
-    $ionicModal.fromTemplateUrl('templates/new-tab-task.html', function (modal) {
+    $ionicModal.fromTemplateUrl('templates/new-task.html', function (modal) {
         $scope.taskModal = modal;
     }, {
         scope: $scope,
